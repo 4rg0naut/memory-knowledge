@@ -1,0 +1,30 @@
+{
+  "event_type": "claim.disputed",
+  "event_time": "2026-05-18T12:00:00Z",
+  "spec_version": "0.1.0",
+  "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+  "producer": {
+    "agent_id": "urn:service:claim-verifier",
+    "agent_type": "service",
+    "name": "Claim Verifier"
+  },
+  "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+  "verification": {
+    "verification_id": "ver_02",
+    "verification_result": "contradicted",
+    "verification_method": "source_attestation",
+    "claim_status": "disputed",
+    "validator": {
+      "agent_id": "urn:service:claim-verifier",
+      "agent_type": "service",
+      "name": "Claim Verifier"
+    },
+    "verified_at": "2026-05-18T12:00:00Z"
+  },
+  "event_id": "evt_QXnVXNWetJtVmyqQbO9FeNJ3I3",
+  "digest": {
+    "algorithm": "sha256",
+    "encoding": "base64url",
+    "value": "4mk0724z5kMPM2xCsPwomk7X0UVTtuKvkpSotoNBOAo"
+  }
+}

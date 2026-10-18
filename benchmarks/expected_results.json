@@ -1,0 +1,68 @@
+{
+  "note": "Expected outputs for scripts/verify-bench.sh on the sanitized demo data. Regenerate with scripts/verify-bench.sh --update. mem-eval numbers are deterministic given the committed demo queryset (seed 42, featurehash-512 + FTS5 + CombMNZ, stdlib only); prune-gate is the macOS Vision reference arm scored against synthetic ground truth.",
+  "mem_eval": {
+    "queryset_sha": "dc38651bfea5648f",
+    "seed": 42,
+    "modes": {
+      "baseline": {
+        "mrr": 1.0,
+        "p_at_1": 1.0,
+        "n": 99,
+        "mean_grade": 3.0,
+        "tokens": {
+          "exact": 348.0,
+          "phrase": 433.1,
+          "conceptual": 224.9
+        }
+      },
+      "distilled": {
+        "mrr": 0.0808,
+        "p_at_1": 0.0808,
+        "n": 99,
+        "mean_grade": 0.3434,
+        "tokens": {
+          "exact": 7.4,
+          "phrase": 11.0,
+          "conceptual": 6.6
+        }
+      },
+      "fused": {
+        "mrr": 1.0,
+        "p_at_1": 1.0,
+        "n": 99,
+        "mean_grade": 2.1932,
+        "tokens": {
+          "exact": 367.8,
+          "phrase": 524.7,
+          "conceptual": 430.6
+        }
+      },
+      "graph": {
+        "mrr": 1.0,
+        "p_at_1": 1.0,
+        "n": 99,
+        "mean_grade": 2.1932,
+        "tokens": {
+          "exact": 367.8,
+          "phrase": 524.7,
+          "conceptual": 430.6
+        }
+      }
+    },
+    "adversarial": {
+      "guardrail": {
+        "n": 1,
+        "outrank_rate": 1.0,
+        "gold_mrr": 1.0
+      }
+    },
+    "tolerance": 0.01
+  },
+  "prune_gate_vision": {
+    "suite": "synthetic",
+    "images": 3,
+    "scored": 3,
+    "recall_mean_min": 0.9,
+    "requires": "macOS + swiftc (Vision framework); skipped elsewhere"
+  }
+}

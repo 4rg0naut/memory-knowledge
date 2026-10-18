@@ -1,0 +1,10 @@
+{
+  "corpus_sha256": "2888a22909c4dccb",
+  "embedder": "featurehash-512",
+  "fts5": true,
+  "git_commit": "f4b19ba",
+  "platform": "Darwin/arm64",
+  "python": "3.12.14",
+  "raw_files": 5,
+  "ts": "2026-10-18T20:14:14+00:00"
+}

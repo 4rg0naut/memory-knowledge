@@ -1,0 +1,203 @@
+{
+  "name": "valid emitted verified disputed retracted replay",
+  "events": [
+    {
+      "event_type": "claim.emitted",
+      "event_time": "2026-05-17T19:30:01Z",
+      "spec_version": "0.1.0",
+      "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+      "producer": {
+        "agent_id": "urn:service:assistant-api",
+        "agent_type": "service",
+        "name": "Assistant API"
+      },
+      "claim": {
+        "claim_id": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+        "text": "The internal travel policy requires manager approval for overnight trips.",
+        "claim_type": "factual",
+        "context": {
+          "tenant": "example-org",
+          "output_id": "answer-001"
+        },
+        "asserted_at": "2026-05-17T19:30:00Z",
+        "derived_from_claims": [],
+        "relations": []
+      },
+      "sources": [
+        {
+          "source_id": "src_kKpwK9CSqwxWQBeOYh3X7HNO15",
+          "uri": "https://example.org/policies/travel.pdf",
+          "version": "sha256:8a4d",
+          "observed_at": "2026-05-17T19:29:41Z",
+          "digest": {
+            "algorithm": "sha256",
+            "encoding": "base64url",
+            "value": "UIk_mVKHCXT_02AXyQd_c7WSqk22iKmsj4Tm0psxQhw"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "ev_qe421sPb_tdAdKqrDBkOu6PIJc",
+          "source_ref": "src_kKpwK9CSqwxWQBeOYh3X7HNO15",
+          "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+          "selector": {
+            "type": "page_span",
+            "page": 7,
+            "start": 1220,
+            "end": 1310
+          },
+          "support_type": "supports_directly",
+          "content_digest": {
+            "algorithm": "sha256",
+            "encoding": "base64url",
+            "value": "vFSAf-fx8jwS-EB9d3R4l9imnsfFhTCoNv1jqohc1Yw"
+          }
+        }
+      ],
+      "tool_runs": [
+        {
+          "tool_run_id": "run_pdf_retriever_784",
+          "tool_type": "retriever",
+          "tool": {
+            "name": "policy-index-search",
+            "version": "0.1.0",
+            "provider": "example",
+            "model": "text-embedding-3-large",
+            "model_version": "2026-01"
+          },
+          "parameters_summary": {
+            "k": 5,
+            "query_digest": {
+              "algorithm": "sha256",
+              "encoding": "base64url",
+              "value": "GkFYn85jjRu57zRIie8HvY5kmm5_eHeSWSuL3eKmp14"
+            }
+          },
+          "parameters_digest": {
+            "algorithm": "sha256",
+            "encoding": "base64url",
+            "value": "QHQvjH_dBbRK0fPsDFfYAMj1aUHtws05Zkkpx0kXf-c"
+          },
+          "trace_ref": "4bf92f3577b34da6a3ce929d0e0e4736/00f067aa0ba902b7"
+        }
+      ],
+      "inferences": [],
+      "agents": [],
+      "event_id": "evt_Sf-q0Zn3I4rIemSO-AQ8qvKjTO",
+      "digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "EBJDl5B6wJUsVcZYdymtw7uklJ6LOB9W1FBV8N9XQUw"
+      }
+    },
+    {
+      "event_type": "claim.verified",
+      "event_time": "2026-05-17T19:31:08Z",
+      "spec_version": "0.1.0",
+      "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+      "producer": {
+        "agent_id": "urn:service:claim-verifier",
+        "agent_type": "service",
+        "name": "Claim Verifier"
+      },
+      "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+      "verification": {
+        "verification_id": "ver_01",
+        "verification_result": "supported",
+        "verification_method": "model_check",
+        "claim_status": "active",
+        "validator": {
+          "agent_id": "urn:service:claim-verifier",
+          "agent_type": "service",
+          "name": "Claim Verifier"
+        },
+        "verified_at": "2026-05-17T19:31:08Z",
+        "confidence": 0.96
+      },
+      "evidence": [],
+      "agents": [],
+      "event_id": "evt_bQiY0l1_4FDBgL8p0G5nDoNZEE",
+      "digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "mhE3DhNLozplPysWuzwA_TgLglModCALL88mEQ9Acxs"
+      }
+    },
+    {
+      "event_type": "claim.disputed",
+      "event_time": "2026-05-18T12:00:00Z",
+      "spec_version": "0.1.0",
+      "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+      "producer": {
+        "agent_id": "urn:service:claim-verifier",
+        "agent_type": "service",
+        "name": "Claim Verifier"
+      },
+      "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+      "verification": {
+        "verification_id": "ver_02",
+        "verification_result": "contradicted",
+        "verification_method": "source_attestation",
+        "claim_status": "disputed",
+        "validator": {
+          "agent_id": "urn:service:claim-verifier",
+          "agent_type": "service",
+          "name": "Claim Verifier"
+        },
+        "verified_at": "2026-05-18T12:00:00Z"
+      },
+      "contradicting_evidence": [
+        {
+          "evidence_id": "ev_contradiction_01",
+          "source_ref": "src_kKpwK9CSqwxWQBeOYh3X7HNO15",
+          "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+          "selector": {
+            "type": "page_span",
+            "page": 8,
+            "start": 200,
+            "end": 260
+          },
+          "support_type": "contradicts",
+          "content_digest": {
+            "algorithm": "sha256",
+            "encoding": "base64url",
+            "value": "U4J-eZojMJ4oF2VPmksmLNTBbxLlTTSLjpeWFBSKcXQ"
+          }
+        }
+      ],
+      "dispute_rationale": "A newer policy revision states director approval is required.",
+      "event_id": "evt_QXnVXNWetJtVmyqQbO9FeNJ3I3",
+      "digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "4mk0724z5kMPM2xCsPwomk7X0UVTtuKvkpSotoNBOAo"
+      }
+    },
+    {
+      "event_type": "claim.retracted",
+      "event_time": "2026-05-19T09:00:00Z",
+      "spec_version": "0.1.0",
+      "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+      "producer": {
+        "agent_id": "urn:service:assistant-api",
+        "agent_type": "service",
+        "name": "Assistant API"
+      },
+      "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+      "retracted_at": "2026-05-19T09:00:00Z",
+      "retraction_reason": "The cited policy was superseded.",
+      "original_event_ref": "evt_Sf-q0Zn3I4rIemSO-AQ8qvKjTO",
+      "event_id": "evt_SnHtzCG1yOcD_O157OI8T7K8Nf",
+      "digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "TaKCbadZ3Agc-dpBFvBj_XyDPQjEsqlsUxKe8brU2rg"
+      }
+    }
+  ],
+  "expect": {
+    "accepted": 4,
+    "claim_status": "retracted"
+  }
+}

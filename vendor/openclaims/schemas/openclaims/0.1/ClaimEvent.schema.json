@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+  "title": "OpenClaims v0.1 ClaimEvent",
+  "oneOf": [
+    { "$ref": "ClaimEmittedEvent.schema.json" },
+    { "$ref": "ClaimVerifiedEvent.schema.json" },
+    { "$ref": "ClaimDisputedEvent.schema.json" },
+    { "$ref": "ClaimRetractedEvent.schema.json" }
+  ]
+}

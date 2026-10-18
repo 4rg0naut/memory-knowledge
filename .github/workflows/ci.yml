@@ -1,0 +1,46 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  pii-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: PII scan (hard gate — must pass before anything else counts)
+        # NB: --strict targets the PUBLISHED tree only (ADR-0013); the
+        # private dev tree carries real captures behind
+        # scripts/pii-excludes.txt and is checked in non-strict mode.
+        # CI runs on the snapshot, so strict is correct here.
+        run: python scripts/check-pii.py --strict
+  conform-and-test:
+    needs: pii-gate
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ocl fixture conformance (vendored openclaims)
+        run: |
+          python -m pip install jsonschema
+          cd tools/ocl && python ocl.py conform ../../vendor/openclaims/fixtures
+      - name: ocl unit tests
+        run: cd tools/ocl && python -m unittest discover -s tests
+      - name: mem unit tests (incl. repo lint)
+        run: cd tools/mem && python -m unittest discover -s tests
+      - name: packaging metadata check
+        run: |
+          python -m pip install build
+          python -m build --wheel
+  bench-verify:
+    needs: pii-gate
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: reproduce published benchmark numbers
+        run: scripts/verify-bench.sh

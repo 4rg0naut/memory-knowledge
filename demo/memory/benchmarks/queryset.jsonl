@@ -1,0 +1,99 @@
+{"gold": ["clm_043f2356a74f", "clm_8fe724505f5d", "clm_f26ac9edf02d", "clm_ca623b507436", "raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13", "raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_cceaafe04485"], "id": "q_aaa3b67d21", "query": "production unified memory", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_400f8a3d960a"], "id": "q_299ecc05da", "query": "refuting", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_ad9d671d24", "query": "weekly ops digest as a health", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_6f1c62c567", "query": "walk me through what still", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_32cb6f5d5e", "query": "briefing", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_bcd3201421", "query": "a revalidation date tied", "type": "phrase"}
+{"gold": ["clm_babffa1ec2d2", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_65fc06d951", "query": "standard", "type": "exact"}
+{"gold": ["clm_4b9a176425c5", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_a59af82e87", "query": "withdrawn", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_c1bdef568d", "query": "i want that treated", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_8452094f42", "query": "any material that quotes", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_6f51315ac8", "query": "as a health signal", "type": "phrase"}
+{"gold": ["clm_c9ef715c805c", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_4754cba965", "query": "warehouse", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_d44e419871", "query": "delete leaves orphaned files from", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_f5fde63e42", "query": "traced to a pre", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_ed51249714", "query": "a rule with a revalidation date", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_dd70a82731", "query": "any material that quotes hardware", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_186e050e62", "query": "walk me through what still references", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_15f1a05966", "query": "customer material this quarter", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_c4aded683a", "query": "files from withdrawn rosters alive", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_c2f279df7a", "query": "replacing", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_74d62cb632", "query": "reported", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_a61090b07e", "query": "one verified run with a", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_0f136f8e49", "query": "remain closed company", "type": "conceptual"}
+{"gold": ["clm_14cd6177b941", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_44d03bca1f", "query": "ventures series robotics", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_09488547a8", "query": "as a task and", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_53f3be7f33", "query": "i want that treated as", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5"], "id": "q_3c4cdf3364", "query": "october fleet briefing repeated a", "type": "phrase"}
+{"gold": ["clm_e35a0796d3ab"], "id": "q_359864319f", "query": "published announcement devday", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_9e689b1183", "query": "with a clean diff", "type": "phrase"}
+{"gold": ["clm_ca623b507436"], "id": "q_0e02ddb5a6", "query": "validate", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5"], "id": "q_5e00cb4e83", "query": "repeated", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_d10a3da0ad", "query": "announced", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_82f2c280ed", "query": "maintains", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_d38a21c25d", "query": "financial", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_da3cc6f998", "query": "is to repoint them", "type": "phrase"}
+{"gold": ["clm_eee1bf2f636c", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_87fe26937b", "query": "marketing", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_9365eb9e12", "query": "supplier checklist to purchasing", "type": "phrase"}
+{"gold": ["clm_14cd6177b941", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_4ddde021f7", "query": "eur led by delft", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_cb45c70a6f", "query": "datasheet leaking into customer material this", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_c30cbeaf40", "query": "win was announced at", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_bec612f132", "query": "transcript", "type": "exact"}
+{"gold": ["clm_14cd6177b941", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_60856954bc", "query": "30m eur led by", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_43ca23d2b7", "query": "sustains founded robots", "type": "conceptual"}
+{"gold": ["clm_1c459c8f98cb", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_bce3cc6be5", "query": "leaves without orphaned", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_cceaafe04485"], "id": "q_474477a21e", "query": "yesterday", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_28dd620737", "query": "i want that treated as a", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_516f78ceeb", "query": "one verified run with a clean", "type": "phrase"}
+{"gold": ["clm_14cd6177b941", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_30d2b4109a", "query": "30m eur led by delft ventures", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_cceaafe04485"], "id": "q_b1edcc35fe", "query": "picking review incident", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_400f8a3d960a"], "id": "q_5ec23746c1", "query": "references", "type": "exact"}
+{"gold": ["clm_4b9a176425c5", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_64f20756e6", "query": "resurrect wrapper migration", "type": "conceptual"}
+{"gold": ["clm_ca623b507436"], "id": "q_28d3b82fd8", "query": "assert validate f26ac9edf02d", "type": "conceptual"}
+{"gold": ["clm_e35a0796d3ab"], "id": "q_e849abab35", "query": "published", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_28c99037dd", "query": "datasheet that someone reused from", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_a31f633b60", "query": "is captured as a rule with", "type": "phrase"}
+{"gold": ["clm_8fe724505f5d", "clm_f26ac9edf02d", "clm_ca623b507436", "raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_6b23908db8", "query": "across production unified", "type": "conceptual"}
+{"gold": ["clm_babffa1ec2d2"], "id": "q_c0c5b16b01", "query": "per hour under standard", "type": "phrase"}
+{"gold": ["clm_dc17437d8fa8", "clm_f288c19f05c3", "clm_601f2c027889", "clm_14cd6177b941", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_78fff4b840", "query": "rotterdam robotics harbor", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_4311cb838c", "query": "sustains 310 picks per hour", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_d468d9448f", "query": "datasheet that someone reused", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_3059df19c1", "query": "weekly ops digest as", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_2c8565b93b", "query": "treated as a standing", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_e6e26eead6", "query": "deleting slides resurrecting", "type": "conceptual"}
+{"gold": ["clm_ca623b507436"], "id": "q_681555396d", "query": "f26ac9edf02d", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_d33c2498e2", "query": "is to repoint them at", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_2407eb7ef0", "query": "walk me through what", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_cceaafe04485"], "id": "q_95a6259b64", "query": "incident", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_400f8a3d960a"], "id": "q_ac5d2df643", "query": "entity confirmed assistant", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_400f8a3d960a"], "id": "q_9e18eabd8b", "query": "corrected", "type": "exact"}
+{"gold": ["clm_1c459c8f98cb"], "id": "q_0a5543f726", "query": "delete leaves orphaned files alive", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_aba21d6cf7", "query": "datasheet leaking into customer", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_be700c8d84", "query": "wiki page reflects that", "type": "phrase"}
+{"gold": ["clm_1c459c8f98cb", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_f3620acf8c", "query": "orphaned", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_9d3c924266", "query": "prototype", "type": "exact"}
+{"gold": ["clm_14cd6177b941", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_b32ff5055a", "query": "30m eur led by delft", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5"], "id": "q_2e436d992d", "query": "october fleet briefing repeated", "type": "phrase"}
+{"gold": ["clm_e35a0796d3ab", "clm_043f2356a74f", "clm_c9ef715c805c", "clm_75a3a0262ef2", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13", "raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_4a4f610990", "query": "warehouse nimbus", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_d64be6ebe3", "query": "one verified run with", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_76b32c9b8a", "query": "diff should be reported to", "type": "phrase"}
+{"gold": ["clm_dc17437d8fa8", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_c07df29cbe", "query": "located office second", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_62145c0c57", "query": "two live references to", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_6d3877a6ab", "query": "automation", "type": "exact"}
+{"gold": ["clm_ca623b507436", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_4a5fc36035", "query": "guardrail", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_9b6a96bd75", "query": "a rule with a revalidation", "type": "phrase"}
+{"gold": ["clm_eee1bf2f636c", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_9a24427104", "query": "marketing retired figure", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md#L1-L5"], "id": "q_2d73ca7982", "query": "repeated shipping datasheet", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_1e6e16380f", "query": "delete leaves orphaned files from withdrawn", "type": "phrase"}
+{"gold": ["raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_f32ff3697d", "query": "roadmap silicon tailnet", "type": "conceptual"}
+{"gold": ["clm_4b9a176425c5", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_3f14ce4d62", "query": "resurrect", "type": "exact"}
+{"gold": ["clm_043f2356a74f", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13", "raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_a1c98e9bd3", "query": "paired nimbus unified", "type": "conceptual"}
+{"gold": ["clm_4b9a176425c5", "raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11"], "id": "q_ee82f6c0dc", "query": "migration", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_d7055028c7", "query": "closed a series b", "type": "phrase"}
+{"gold": ["clm_1c459c8f98cb", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_069c0e0eeb", "query": "delete leaves orphaned files", "type": "phrase"}
+{"gold": ["clm_5aec63982c4c", "raw:raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md#L1-L13"], "id": "q_e7f8553382", "query": "status rollout october", "type": "conceptual"}
+{"gold": ["clm_601f2c027889", "raw:raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md#L1-L9"], "id": "q_f08a3f9a82", "query": "fy2025 revenue robotics", "type": "conceptual"}
+{"gold": ["raw:raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md#L1-L11", "dst_400f8a3d960a"], "id": "q_1ca1178c93", "query": "assistant", "type": "exact"}
+{"gold": ["raw:raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md#L1-L9"], "id": "q_ce226fb939", "query": "pairs two dies for", "type": "phrase"}
+{"gold": ["clm_e35a0796d3ab"], "id": "q_bddff5cfed", "query": "announcement", "type": "exact"}
+{"gold": ["clm_babffa1ec2d2"], "id": "q_3b133e6274", "query": "per hour under standard bin", "type": "phrase"}

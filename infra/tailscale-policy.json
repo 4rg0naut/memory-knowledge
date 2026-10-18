@@ -1,0 +1,32 @@
+{
+  "_comment": "Fleet ACL policy-as-code (ADR-0006). Applied wholesale via scripts/apply-policy.sh (PUT /acl + validate) - never pasted into the console (ACL outage of 2026-09-29 came from a bad console paste). tag:mem-hub = mini hub node; tag:mem-writer = devices allowed to POST. Grants (identity-based) stay reserved for admin tooling, not the data path.",
+  "acls": [
+    {
+      "action": "accept",
+      "src": ["autogroup:member"],
+      "dst": ["tcp:22"]
+    },
+    {
+      "action": "accept",
+      "src": ["autogroup:member"],
+      "dst": ["tag:mem-hub:8520", "tag:mem-hub:8443", "tag:mem-hub:11434"]
+    },
+    {
+      "action": "accept",
+      "src": ["tag:mem-writer"],
+      "dst": ["tag:mem-hub:8521"]
+    }
+  ],
+  "tests": [
+    {
+      "_why": "any tailnet member may read the hub and SearXNG over HTTPS",
+      "srcUser": "autogroup:member",
+      "accept": ["tag:mem-hub:8520", "tag:mem-hub:8443"]
+    },
+    {
+      "_why": "writers additionally reach the write port",
+      "srcUser": "tag:mem-writer",
+      "accept": ["tag:mem-hub:8521"]
+    }
+  ]
+}

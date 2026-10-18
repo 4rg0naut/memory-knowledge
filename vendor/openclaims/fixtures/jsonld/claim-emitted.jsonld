@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "oc": "https://openclaims.org/ns#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "schema": "https://schema.org/",
+    "Claim": "schema:Claim",
+    "Evidence": "oc:Evidence",
+    "Source": "oc:Source",
+    "ToolRun": "oc:ToolRun",
+    "Verification": "oc:Verification",
+    "Agent": "prov:Agent",
+    "wasGeneratedBy": "prov:wasGeneratedBy",
+    "used": "prov:used",
+    "wasAssociatedWith": "prov:wasAssociatedWith",
+    "supports": "oc:supports",
+    "contradicts": "oc:contradicts"
+  },
+  "@id": "urn:openclaims:event:evt_Sf-q0Zn3I4rIemSO-AQ8qvKjTO",
+  "@graph": [
+    {
+      "@id": "urn:openclaims:agent:urn:service:assistant-api",
+      "@type": [
+        "prov:Agent",
+        "oc:Agent"
+      ],
+      "oc:agentType": "service",
+      "schema:name": "Assistant API"
+    },
+    {
+      "@id": "urn:openclaims:claim:clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+      "@type": [
+        "prov:Entity",
+        "schema:Claim",
+        "oc:Claim"
+      ],
+      "schema:text": "The internal travel policy requires manager approval for overnight trips.",
+      "oc:claimType": "factual",
+      "oc:assertedAt": "2026-05-17T19:30:00Z",
+      "prov:wasAttributedTo": "urn:openclaims:agent:urn:service:assistant-api",
+      "oc:derivedFromClaims": []
+    },
+    {
+      "@id": "urn:openclaims:source:src_kKpwK9CSqwxWQBeOYh3X7HNO15",
+      "@type": [
+        "prov:Entity",
+        "oc:Source"
+      ],
+      "oc:uri": "https://example.org/policies/travel.pdf",
+      "oc:version": "sha256:8a4d",
+      "oc:observedAt": "2026-05-17T19:29:41Z",
+      "oc:digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "UIk_mVKHCXT_02AXyQd_c7WSqk22iKmsj4Tm0psxQhw"
+      }
+    },
+    {
+      "@id": "urn:openclaims:evidence:ev_qe421sPb_tdAdKqrDBkOu6PIJc",
+      "@type": [
+        "prov:Entity",
+        "oc:Evidence"
+      ],
+      "prov:wasDerivedFrom": "urn:openclaims:source:src_kKpwK9CSqwxWQBeOYh3X7HNO15",
+      "oc:selector": {
+        "type": "page_span",
+        "page": 7,
+        "start": 1220,
+        "end": 1310
+      },
+      "oc:supportType": "supports_directly",
+      "oc:supports": "urn:openclaims:claim:clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+      "oc:contentDigest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "vFSAf-fx8jwS-EB9d3R4l9imnsfFhTCoNv1jqohc1Yw"
+      }
+    },
+    {
+      "@id": "urn:openclaims:toolRun:run_pdf_retriever_784",
+      "@type": [
+        "prov:Activity",
+        "oc:ToolRun"
+      ],
+      "oc:toolType": "retriever",
+      "oc:tool": {
+        "name": "policy-index-search",
+        "version": "0.1.0",
+        "provider": "example",
+        "model": "text-embedding-3-large",
+        "model_version": "2026-01"
+      },
+      "oc:traceRef": "4bf92f3577b34da6a3ce929d0e0e4736/00f067aa0ba902b7",
+      "prov:wasAssociatedWith": "urn:openclaims:agent:urn:service:assistant-api"
+    },
+    {
+      "@id": "urn:openclaims:event:evt_Sf-q0Zn3I4rIemSO-AQ8qvKjTO",
+      "@type": "oc:ClaimEvent",
+      "oc:eventType": "claim.emitted",
+      "prov:generatedAtTime": "2026-05-17T19:30:01Z",
+      "oc:specVersion": "0.1.0",
+      "oc:digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "EBJDl5B6wJUsVcZYdymtw7uklJ6LOB9W1FBV8N9XQUw"
+      }
+    }
+  ]
+}

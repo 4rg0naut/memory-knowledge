@@ -1,0 +1,20 @@
+{
+  "checked": 16,
+  "counts": {
+    "duplicate_id": 0,
+    "ok": 16,
+    "ok_pregate_era": 1,
+    "ok_quote_era": 15,
+    "stale": 0,
+    "unlocatable": 0,
+    "unlocatable_pregate_era": 0,
+    "unlocatable_quote_era": 0
+  },
+  "guardrail_retirement": {
+    "expired": [],
+    "retired": []
+  },
+  "problems": [],
+  "torn_event_lines": 0,
+  "unindexed_pages": []
+}

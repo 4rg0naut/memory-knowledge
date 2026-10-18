@@ -1,0 +1,7 @@
+benchmarks/prune-gate/work/
+__pycache__/
+.venv/
+.DS_Store
+benchmarks/prune-gate/quadcrop
+benchmarks/prune-gate/vision_ocr
+demo/.build/

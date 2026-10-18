@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/facets/GroundingSpanEvidenceFacet.schema.json",
+  "title": "GroundingSpanEvidenceFacet",
+  "type": "object",
+  "required": ["_producer", "_schemaURL", "locator_type", "quote_hash"],
+  "properties": {
+    "_producer": { "type": "string", "minLength": 1 },
+    "_schemaURL": { "const": "https://openclaims.org/schemas/openclaims/0.1/facets/GroundingSpanEvidenceFacet.schema.json" },
+    "locator_type": { "enum": ["text", "pdf_text", "html", "json", "table", "byte_range"] },
+    "page": { "type": "integer", "minimum": 1 },
+    "char_range": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0 },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "quote_hash": { "$ref": "../Core.schema.json#/$defs/Digest" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,10 @@
+{
+ "url": "https://harborrobotics.example/devday-2026",
+ "retrieved": "2026-10-16",
+ "published": "2026-10-15",
+ "r300": {"soc": "Nimbus-12", "memory": "128 GB unified",
+          "dies": 2},
+ "fleet_cost_claim": {"up_to_pct": 22, "baseline": "R200",
+                      "self_reported": true},
+ "overtime_claim": {"period": "Q3", "statement": "no operator overtime"}
+}

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "4rg0naut-claims"
+version = "0.1.0"
+description = "Clean-room OpenClaims v0.1 ledger CLI (ocl) + file-first claim memory (mem); conforms to github.com/openclaims-ai/openclaims spec, no upstream dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "4rg0naut" }]
+keywords = ["claims", "provenance", "openclaims", "knowledge-graph"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+# Deliberately empty: stdlib-first. jsonschema stays pinned in the local
+# .venv only (see vendor/openclaims/PROVENANCE.md discipline).
+dependencies = []
+
+[project.scripts]
+ocl = "ocl:main"
+mem = "mem.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "tools/ocl", "mem" = "tools/mem/mem" }
+py-modules = ["ocl", "jcs", "ocl_validate"]
+packages = ["mem"]

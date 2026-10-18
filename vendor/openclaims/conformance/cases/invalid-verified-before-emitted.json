@@ -1,0 +1,41 @@
+{
+  "name": "invalid verified before emitted replay",
+  "events": [
+    {
+      "event_type": "claim.verified",
+      "event_time": "2026-05-17T19:31:08Z",
+      "spec_version": "0.1.0",
+      "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+      "producer": {
+        "agent_id": "urn:service:claim-verifier",
+        "agent_type": "service",
+        "name": "Claim Verifier"
+      },
+      "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+      "verification": {
+        "verification_id": "ver_01",
+        "verification_result": "supported",
+        "verification_method": "model_check",
+        "claim_status": "active",
+        "validator": {
+          "agent_id": "urn:service:claim-verifier",
+          "agent_type": "service",
+          "name": "Claim Verifier"
+        },
+        "verified_at": "2026-05-17T19:31:08Z",
+        "confidence": 0.96
+      },
+      "evidence": [],
+      "agents": [],
+      "event_id": "evt_bQiY0l1_4FDBgL8p0G5nDoNZEE",
+      "digest": {
+        "algorithm": "sha256",
+        "encoding": "base64url",
+        "value": "mhE3DhNLozplPysWuzwA_TgLglModCALL88mEQ9Acxs"
+      }
+    }
+  ],
+  "expect": {
+    "error_type": "ConflictError"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/ClaimEmittedEvent.schema.json",
+  "allOf": [
+    { "$ref": "BaseEvent.schema.json" },
+    {
+      "type": "object",
+      "required": ["claim"],
+      "properties": {
+        "event_type": { "const": "claim.emitted" }
+      }
+    }
+  ]
+}

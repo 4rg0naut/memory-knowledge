@@ -1,0 +1,14 @@
+use_default_settings: true
+general:
+  debug: false
+  instance_name: "mini-fleet"
+server:
+  secret_key: "REGENERATE-64-hex"
+  url: "http://192.168.1.48:8888/"   # public base URL; SEARXNG_URL env in plist takes precedence — keep in sync
+  limiter: false
+  bind_address: "0.0.0.0"
+  port: 8888
+search:
+  formats:
+    - html
+    - json

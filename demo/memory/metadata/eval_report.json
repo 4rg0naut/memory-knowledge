@@ -1,0 +1,230 @@
+{
+  "adversarial": {
+    "guardrail": {
+      "gold_mrr": 1.0,
+      "n": 1,
+      "outrank_rate": 1.0
+    },
+    "guardrail_stale": {
+      "gold_mrr": null,
+      "n": 0,
+      "outrank_rate": null
+    }
+  },
+  "budget": 600,
+  "ci_seed": 42,
+  "graph_decision": "insufficient-data",
+  "k": 8,
+  "modes": {
+    "baseline": {
+      "mean_grade": 3.0,
+      "mrr": 1.0,
+      "mrr_ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 99,
+      "p_at_1": 1.0,
+      "per_type": {
+        "conceptual": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 21,
+          "p_at_1": 1.0,
+          "tokens_per_query": 224.9
+        },
+        "exact": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 28,
+          "p_at_1": 1.0,
+          "tokens_per_query": 348.0
+        },
+        "multihop": {
+          "ci95": null,
+          "mrr": 0.0,
+          "n": 0,
+          "p_at_1": 0.0,
+          "tokens_per_query": 0.0
+        },
+        "phrase": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 50,
+          "p_at_1": 1.0,
+          "tokens_per_query": 433.1
+        }
+      },
+      "solved": 99,
+      "tokens_per_query": 364.9,
+      "unsolved": 0
+    },
+    "distilled": {
+      "mean_grade": 0.3434,
+      "mrr": 0.0808,
+      "mrr_ci95": [
+        0.0303,
+        0.1414
+      ],
+      "n": 99,
+      "p_at_1": 0.0808,
+      "per_type": {
+        "conceptual": {
+          "ci95": [
+            0.0,
+            0.2381
+          ],
+          "mrr": 0.0952,
+          "n": 21,
+          "p_at_1": 0.0952,
+          "tokens_per_query": 6.6
+        },
+        "exact": {
+          "ci95": [
+            0.0714,
+            0.3929
+          ],
+          "mrr": 0.2143,
+          "n": 28,
+          "p_at_1": 0.2143,
+          "tokens_per_query": 7.4
+        },
+        "multihop": {
+          "ci95": null,
+          "mrr": 0.0,
+          "n": 0,
+          "p_at_1": 0.0,
+          "tokens_per_query": 0.0
+        },
+        "phrase": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mrr": 0.0,
+          "n": 50,
+          "p_at_1": 0.0,
+          "tokens_per_query": 11.0
+        }
+      },
+      "solved": 8,
+      "tokens_per_query": 9.0,
+      "unsolved": 91
+    },
+    "fused": {
+      "mean_grade": 2.1932,
+      "mrr": 1.0,
+      "mrr_ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 99,
+      "p_at_1": 1.0,
+      "per_type": {
+        "conceptual": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 21,
+          "p_at_1": 1.0,
+          "tokens_per_query": 430.6
+        },
+        "exact": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 28,
+          "p_at_1": 1.0,
+          "tokens_per_query": 367.8
+        },
+        "multihop": {
+          "ci95": null,
+          "mrr": 0.0,
+          "n": 0,
+          "p_at_1": 0.0,
+          "tokens_per_query": 0.0
+        },
+        "phrase": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 50,
+          "p_at_1": 1.0,
+          "tokens_per_query": 524.7
+        }
+      },
+      "solved": 99,
+      "tokens_per_query": 460.3,
+      "unsolved": 0
+    },
+    "graph": {
+      "mean_grade": 2.1932,
+      "mrr": 1.0,
+      "mrr_ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 99,
+      "p_at_1": 1.0,
+      "per_type": {
+        "conceptual": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 21,
+          "p_at_1": 1.0,
+          "tokens_per_query": 430.6
+        },
+        "exact": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 28,
+          "p_at_1": 1.0,
+          "tokens_per_query": 367.8
+        },
+        "multihop": {
+          "ci95": null,
+          "mrr": 0.0,
+          "n": 0,
+          "p_at_1": 0.0,
+          "tokens_per_query": 0.0
+        },
+        "phrase": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "mrr": 1.0,
+          "n": 50,
+          "p_at_1": 1.0,
+          "tokens_per_query": 524.7
+        }
+      },
+      "solved": 99,
+      "tokens_per_query": 460.3,
+      "unsolved": 0
+    }
+  },
+  "queryset_sha": "dc38651bfea5648f",
+  "ts": "2026-10-18T20:14:14+00:00"
+}

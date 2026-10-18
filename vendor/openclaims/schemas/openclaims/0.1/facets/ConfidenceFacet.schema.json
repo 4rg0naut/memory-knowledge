@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/facets/ConfidenceFacet.schema.json",
+  "title": "ConfidenceFacet",
+  "type": "object",
+  "required": ["_producer", "_schemaURL", "kind", "score"],
+  "properties": {
+    "_producer": { "type": "string", "minLength": 1 },
+    "_schemaURL": { "const": "https://openclaims.org/schemas/openclaims/0.1/facets/ConfidenceFacet.schema.json" },
+    "kind": {
+      "enum": ["model_confidence", "retrieval_confidence", "evidence_confidence", "verification_confidence", "overall_confidence"]
+    },
+    "score": { "type": "number", "minimum": 0, "maximum": 1 },
+    "calibration": { "type": "string" },
+    "rationale": { "type": "string" }
+  },
+  "additionalProperties": false
+}

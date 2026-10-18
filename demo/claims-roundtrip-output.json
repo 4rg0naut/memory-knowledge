@@ -1,0 +1,9 @@
+{
+ "ids": [
+  "clm_453f46d814c54c918ce76b6d9e",
+  "clm_171212c6d3cf4ef29204ee4ae8",
+  "clm_8d6ddfbc350c43bea0c3508f50",
+  "clm_065b52096c9442c2b3d5fb0310"
+ ],
+ "check_output": "{\n  \"claim_ref\": \"clm_065b52096c9442c2b3d5fb0310\",\n  \"status\": \"disputed\",\n  \"last_result\": null,\n  \"last_method\": null,\n  \"events\": 2,\n  \"history\": [\n    {\n      \"event_id\": \"evt_6341d1dfeedd45388555c5c281\",\n      \"type\": \"claim.emitted\",\n      \"time\": \"2026-10-18T20:14:15Z\"\n    },\n    {\n      \"event_id\": \"evt_3dce30340eb045c08ebae5902c\",\n      \"type\": \"claim.disputed\",\n      \"time\": \"2026-10-18T20:14:15Z\",\n      \"rationale\": \"Q3 incident log lists two weekend runs; the overtime claim is at odds with the log\"\n    }\n  ]\n}"
+}

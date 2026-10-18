@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>uk.4rg0naut.mem.serve</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Volumes/work/OpenFox/Memory_Knowledge/tools/mem/.venv/bin/python</string>
+        <string>-m</string>
+        <string>mem</string>
+        <string>serve</string>
+        <string>--port</string>
+        <string>8520</string>
+        <string>--listen</string>
+        <string>127.0.0.1</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Volumes/work/OpenFox/Memory_Knowledge</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PYTHONPATH</key>
+        <string>/Volumes/work/OpenFox/Memory_Knowledge/tools/mem</string>
+        <key>MEM_HOME</key>
+        <string>/Volumes/work/OpenFox/Memory_Knowledge/memory</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/mem-serve.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/mem-serve.err</string>
+</dict>
+</plist>

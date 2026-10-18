@@ -1,0 +1,21 @@
+{
+  "event_type": "claim.retracted",
+  "event_time": "2026-05-19T09:00:00Z",
+  "spec_version": "0.1.0",
+  "schema_url": "https://openclaims.org/schemas/openclaims/0.1/ClaimEvent.schema.json",
+  "producer": {
+    "agent_id": "urn:service:assistant-api",
+    "agent_type": "service",
+    "name": "Assistant API"
+  },
+  "claim_ref": "clm_SCYcDu4K-Mw6o2Jg9IqNRa0rmn",
+  "retracted_at": "2026-05-19T09:00:00Z",
+  "retraction_reason": "The cited policy was superseded.",
+  "original_event_ref": "evt_Sf-q0Zn3I4rIemSO-AQ8qvKjTO",
+  "event_id": "evt_SnHtzCG1yOcD_O157OI8T7K8Nf",
+  "digest": {
+    "algorithm": "sha256",
+    "encoding": "base64url",
+    "value": "TaKCbadZ3Agc-dpBFvBj_XyDPQjEsqlsUxKe8brU2rg"
+  }
+}

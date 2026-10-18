@@ -1,0 +1,19 @@
+# rules/base.yaml — layer 1 default hygiene gates (ADR-0008).
+# Later layers win by rule name: host-<hostname>.yaml, then patch.yml.
+rules:
+  - name: derived_from_required
+    enabled: true
+  - name: pred_required
+    enabled: true
+  - name: text_nonempty
+    enabled: true
+  - name: no_agent_verified
+    enabled: true
+  - name: inference_cap
+    enabled: true
+    params:
+      cap: 0.8
+  - name: quote_match
+    enabled: false
+    params:
+      require_quote: false

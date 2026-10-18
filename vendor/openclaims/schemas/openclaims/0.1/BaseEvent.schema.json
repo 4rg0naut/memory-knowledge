@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/BaseEvent.schema.json",
+  "type": "object",
+  "required": ["event_id", "event_type", "event_time", "spec_version", "schema_url", "producer", "digest"],
+  "properties": {
+    "event_id": { "type": "string", "minLength": 1 },
+    "event_type": { "enum": ["claim.emitted", "claim.verified", "claim.disputed", "claim.retracted"] },
+    "event_time": { "type": "string", "format": "date-time" },
+    "spec_version": { "const": "0.1.0" },
+    "schema_url": { "type": "string", "format": "uri" },
+    "producer": { "$ref": "Core.schema.json#/$defs/Agent" },
+    "claim": { "$ref": "Core.schema.json#/$defs/Claim" },
+    "claim_ref": { "type": "string", "minLength": 1 },
+    "sources": { "type": "array", "items": { "$ref": "Core.schema.json#/$defs/Source" } },
+    "evidence": { "type": "array", "items": { "$ref": "Core.schema.json#/$defs/Evidence" } },
+    "contradicting_evidence": { "type": "array", "items": { "$ref": "Core.schema.json#/$defs/Evidence" } },
+    "tool_runs": { "type": "array", "items": { "$ref": "Core.schema.json#/$defs/ToolRun" } },
+    "inferences": { "type": "array", "items": { "$ref": "Core.schema.json#/$defs/Inference" } },
+    "verification": { "$ref": "Core.schema.json#/$defs/Verification" },
+    "auditable_trace": { "$ref": "Core.schema.json#/$defs/AuditableTrace" },
+    "digest": { "$ref": "Core.schema.json#/$defs/Digest" }
+  },
+  "anyOf": [
+    { "required": ["claim"] },
+    { "required": ["claim_ref"] }
+  ]
+}

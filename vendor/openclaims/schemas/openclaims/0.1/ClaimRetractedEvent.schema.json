@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/ClaimRetractedEvent.schema.json",
+  "allOf": [
+    { "$ref": "BaseEvent.schema.json" },
+    {
+      "type": "object",
+      "required": ["claim_ref", "retracted_at"],
+      "properties": {
+        "event_type": { "const": "claim.retracted" },
+        "retracted_at": { "type": "string", "format": "date-time" },
+        "retraction_reason": { "type": "string" },
+        "original_event_ref": { "type": "string" }
+      }
+    }
+  ]
+}

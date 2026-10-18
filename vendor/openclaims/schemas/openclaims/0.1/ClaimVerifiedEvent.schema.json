@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaims.org/schemas/openclaims/0.1/ClaimVerifiedEvent.schema.json",
+  "allOf": [
+    { "$ref": "BaseEvent.schema.json" },
+    {
+      "type": "object",
+      "required": ["claim_ref", "verification"],
+      "properties": {
+        "event_type": { "const": "claim.verified" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Terminal Benchmark Report 2
+
+Unreal Agent scored 57.9% at a total cost of $1428.
+Codex leaderboard baseline matched at 57.9% for $2350.
+Pass rate deltas attributed to benchmark variance.

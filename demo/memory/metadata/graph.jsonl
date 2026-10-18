@@ -1,0 +1,78 @@
+{"dst": "raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md", "invalid_at": null, "src": "wiki/entities/depot-sync-cron-wrapper.md", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_4b9a176425c5"}
+{"dst": "raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md", "invalid_at": null, "src": "wiki/entities/depot-sync-job.md", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_1c459c8f98cb"}
+{"dst": "status_of", "invalid_at": null, "src": "october", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/fleet-firmware.md#clm_5aec63982c4c"}
+{"dst": "raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md", "invalid_at": null, "src": "october", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_5aec63982c4c"}
+{"dst": "nimbus", "invalid_at": null, "src": "harbor devday", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-devday.md#clm_e35a0796d3ab"}
+{"dst": "raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md", "invalid_at": null, "src": "harbor devday", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_e35a0796d3ab"}
+{"dst": "harbor robotics", "invalid_at": null, "src": "gdansk", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics-second-office.md#clm_dc17437d8fa8"}
+{"dst": "located_in", "invalid_at": null, "src": "gdansk", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics-second-office.md#clm_dc17437d8fa8"}
+{"dst": "located_in", "invalid_at": null, "src": "harbor robotics", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics-second-office.md#clm_dc17437d8fa8"}
+{"dst": "raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md", "invalid_at": null, "src": "gdansk", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_dc17437d8fa8"}
+{"dst": "rotterdam", "invalid_at": null, "src": "harbor robotics", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_f288c19f05c3"}
+{"dst": "raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md", "invalid_at": null, "src": "harbor robotics", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_f288c19f05c3"}
+{"dst": "eur fy2025", "invalid_at": null, "src": "eur", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_601f2c027889"}
+{"dst": "fy2025", "invalid_at": null, "src": "eur", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_601f2c027889"}
+{"dst": "harbor robotics", "invalid_at": null, "src": "eur", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_601f2c027889"}
+{"dst": "fy2025", "invalid_at": null, "src": "eur fy2025", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_601f2c027889"}
+{"dst": "harbor robotics", "invalid_at": null, "src": "eur fy2025", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_601f2c027889"}
+{"dst": "harbor robotics", "invalid_at": null, "src": "fy2025", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_601f2c027889"}
+{"dst": "raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md", "invalid_at": null, "src": "eur", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_601f2c027889"}
+{"dst": "eur", "invalid_at": null, "src": "delft ventures", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_14cd6177b941"}
+{"dst": "harbor robotics", "invalid_at": null, "src": "delft ventures", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_14cd6177b941"}
+{"dst": "series b", "invalid_at": null, "src": "delft ventures", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_14cd6177b941"}
+{"dst": "harbor robotics", "invalid_at": null, "src": "eur", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_14cd6177b941"}
+{"dst": "series b", "invalid_at": null, "src": "eur", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_14cd6177b941"}
+{"dst": "series b", "invalid_at": null, "src": "harbor robotics", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/harbor-robotics.md#clm_14cd6177b941"}
+{"dst": "raw/2026-10-18_harbor-financials.md_demo-sources-harbor-financials-md.md", "invalid_at": null, "src": "delft ventures", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_14cd6177b941"}
+{"dst": "r200", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/marketing-deck.md#clm_eee1bf2f636c"}
+{"dst": "raw/2026-10-18_harbor-standup-2026-10-15.md_demo-sources-harbor-standup-2026-10-15-md.md", "invalid_at": null, "src": "gb", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_eee1bf2f636c"}
+{"dst": "nimbus", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/nimbus-12-soc.md#clm_043f2356a74f"}
+{"dst": "soc", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/nimbus-12-soc.md#clm_043f2356a74f"}
+{"dst": "soc", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/nimbus-12-soc.md#clm_043f2356a74f"}
+{"dst": "raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md", "invalid_at": null, "src": "gb", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_043f2356a74f"}
+{"dst": "raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md", "invalid_at": null, "src": "r200", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_babffa1ec2d2"}
+{"dst": "r200", "invalid_at": "2026-10-18", "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_8fe724505f5d"}
+{"dst": "skus", "invalid_at": "2026-10-18", "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_8fe724505f5d"}
+{"dst": "skus", "invalid_at": "2026-10-18", "src": "r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_8fe724505f5d"}
+{"dst": "raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md", "invalid_at": "2026-10-18", "src": "gb", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_8fe724505f5d"}
+{"dst": "r200", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_f26ac9edf02d"}
+{"dst": "skus", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_f26ac9edf02d"}
+{"dst": "skus", "invalid_at": null, "src": "r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_f26ac9edf02d"}
+{"dst": "raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md", "invalid_at": null, "src": "gb", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_f26ac9edf02d"}
+{"dst": "clm_8fe724505f5d", "invalid_at": null, "src": "gb", "type": "contradicts", "valid_at": "2026-10-18", "via": "clm_f26ac9edf02d"}
+{"dst": "gb", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "r200", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "re-validate", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "skus", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "r200", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "re-validate", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "skus", "invalid_at": null, "src": "gb", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "re-validate", "invalid_at": null, "src": "r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "skus", "invalid_at": null, "src": "r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "skus", "invalid_at": null, "src": "re-validate", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-unified-memory.md#clm_ca623b507436"}
+{"dst": "clm_8fe724505f5d", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "contradicts", "valid_at": "2026-10-18", "via": "clm_ca623b507436"}
+{"dst": "wiki/entities/r200-unified-memory.md", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_ca623b507436"}
+{"dst": "raw/2026-10-18_harbor-correction.md_demo-sources-harbor-correction-md.md", "invalid_at": null, "src": "clm_f26ac9edf02d", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_ca623b507436"}
+{"dst": "r200", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-warehouse-robot.md#clm_c9ef715c805c"}
+{"dst": "soc", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-warehouse-robot.md#clm_c9ef715c805c"}
+{"dst": "uses_tech", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-warehouse-robot.md#clm_c9ef715c805c"}
+{"dst": "soc", "invalid_at": null, "src": "r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-warehouse-robot.md#clm_c9ef715c805c"}
+{"dst": "uses_tech", "invalid_at": null, "src": "r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-warehouse-robot.md#clm_c9ef715c805c"}
+{"dst": "uses_tech", "invalid_at": null, "src": "soc", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r200-warehouse-robot.md#clm_c9ef715c805c"}
+{"dst": "raw/2026-10-18_harbor-fleet.md_demo-sources-harbor-fleet-md.md", "invalid_at": null, "src": "nimbus", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_c9ef715c805c"}
+{"dst": "r300", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r300-robot.md#clm_75a3a0262ef2"}
+{"dst": "soc", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r300-robot.md#clm_75a3a0262ef2"}
+{"dst": "uses_tech", "invalid_at": null, "src": "nimbus", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r300-robot.md#clm_75a3a0262ef2"}
+{"dst": "soc", "invalid_at": null, "src": "r300", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r300-robot.md#clm_75a3a0262ef2"}
+{"dst": "uses_tech", "invalid_at": null, "src": "r300", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r300-robot.md#clm_75a3a0262ef2"}
+{"dst": "uses_tech", "invalid_at": null, "src": "soc", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "wiki/entities/r300-robot.md#clm_75a3a0262ef2"}
+{"dst": "raw/2026-10-18_harbor-platforms.md_demo-sources-harbor-platforms-md.md", "invalid_at": null, "src": "nimbus", "type": "derived_from", "valid_at": "2026-10-18", "via": "clm_75a3a0262ef2"}
+{"dst": "the r200", "invalid_at": null, "src": "picking", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_cceaafe04485"}
+{"dst": "can", "invalid_at": null, "src": "picking", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_cceaafe04485"}
+{"dst": "pre-production", "invalid_at": null, "src": "picking", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_cceaafe04485"}
+{"dst": "can", "invalid_at": null, "src": "the r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_cceaafe04485"}
+{"dst": "pre-production", "invalid_at": null, "src": "the r200", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_cceaafe04485"}
+{"dst": "pre-production", "invalid_at": null, "src": "can", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_cceaafe04485"}
+{"dst": "audit", "invalid_at": null, "src": "confirmed", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_400f8a3d960a"}
+{"dst": "both", "invalid_at": null, "src": "confirmed", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_400f8a3d960a"}
+{"dst": "both", "invalid_at": null, "src": "audit", "type": "co_mentioned", "valid_at": "2026-10-18", "via": "dst_400f8a3d960a"}
